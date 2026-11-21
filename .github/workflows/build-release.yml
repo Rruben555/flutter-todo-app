@@ -33,7 +33,7 @@ jobs:
 
       # Mengambil source code dari repository
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Menginstal Java
       - name: Set up Java
